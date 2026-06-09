@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop Boys | Music Archive</title>
+    <link rel="icon" type="image/x-icon" href="../imgs/ico/Logo Ad.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .artist-hero {
+            height: 60vh;
+            /* Actualizado con un fondo oscuro y estético de luces nocturnas ideal para el dúo */
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(15,15,15,1)), url('../imgs/img/psb.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: flex-end;
+            padding-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <main class="content-wrapper m-0">
+        <!-- Hero Artista -->
+        <section class="artist-hero">
+            <div class="container">
+                <a href="../index.html" class="btn btn-outline-light mb-4 rounded-pill"><i class="fas fa-arrow-left me-2"></i> Volver al Inicio</a>
+                <h1 class="display-2 fw-800" data-aos="fade-up">Pet Shop Boys</h1>
+                <div class="d-flex gap-3 flex-wrap" data-aos="fade-up" data-aos-delay="100">
+                    <span class="badge bg-spotify px-3 py-2">Desde 1981</span>
+                    <span class="badge bg-secondary px-3 py-2">Reino Unido</span>
+                    <span class="badge bg-secondary px-3 py-2">Synth-pop / Dance-pop</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contenido Artista -->
+        <section class="section-padding">
+            <div class="container">
+                <div class="row g-5">
+                    <!-- Columna de Historia y Álbumes -->
+                    <div class="col-lg-8" data-aos="fade-up">
+                        <h2 class="mb-4">Historia</h2>
+                        <p class="lead text-secondary-muted">Pet Shop Boys es un icónico dúo británico de pop electrónico formado en Londres en 1981, integrado por el cantante Neil Tennant y el tecladista Chris Lowe. Catalogados por el Libro Guinness de los Récords como el dúo más exitoso en la historia de la música del Reino Unido, combinan letras inteligentes y melancólicas con ritmos de baile vanguardistas.</p>
+                        <p class="text-secondary-muted">Con más de 50 millones de discos vendidos en todo el mundo, su influencia en la cultura pop y la música electrónica es monumental, cosechando una extensa lista de éxitos globales que marcaron la era dorada del sintetizador, entre los que destacan "West End Girls", "It's a Sin", "Always on My Mind" y "Go West".</p>
+                        
+                        <h3 class="mt-5 mb-4">Álbumes Destacados</h3>
+                        <div class="row g-3">
+                            <!-- Álbum 1: Please -->
+                            <div class="col-md-4">
+                                <div class="glass p-3 text-center h-100">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b2735e38730453e8354e9951a8ab" class="img-fluid rounded mb-2" alt="Please">
+                                    <h6 class="mb-0">Please (1986)</h6>
+                                </div>
+                            </div>
+                            <!-- Álbum 2: Actually -->
+                            <div class="col-md-4">
+                                <div class="glass p-3 text-center h-100">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b27385bce6c7b5664da3fbc90f1c" class="img-fluid rounded mb-2" alt="Actually">
+                                    <h6 class="mb-0">Actually (1987)</h6>
+                                </div>
+                            </div>
+                            <!-- Álbum 3: Behaviour -->
+                            <div class="col-md-4">
+                                <div class="glass p-3 text-center h-100">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b2736fcac9335fc78442a762ebbe" class="img-fluid rounded mb-2" alt="Behaviour">
+                                    <h6 class="mb-0">Behaviour (1990)</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Columna Lateral (Sidebar) -->
+                    <div class="col-lg-4">
+                        <div class="sticky-top" style="top: 2rem;">
+                            <!-- Spotify Player actualizado con la playlist oficial "This Is Pet Shop Boys" -->
+                            <div class="glass p-4 mb-4" data-aos="fade-left">
+                                <h4 class="mb-3">Spotify Player</h4>
+                                <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DZ06evO1sIg24?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                            </div>
+                            <!-- Lista de canciones favoritas actualizada -->
+                            <div class="glass p-4" data-aos="fade-left" data-aos-delay="200">
+                                <h4 class="mb-3">Mis Favoritas</h4>
+                                <ul class="list-unstyled mb-0">
+                                    <li class="mb-2"><i class="fas fa-heart text-spotify me-2"></i> Love Comes Quickly</li>
+                                    <li class="mb-2"><i class="fas fa-heart text-spotify me-2"></i> West End Girls</li>
+                                    <li class="mb-2"><i class="fas fa-heart text-spotify me-2"></i> Always on My Mind</li>
+                                    <li class="mb-2"><i class="fas fa-heart text-spotify me-2"></i> Domino Dancing</li>
+                                    <li class="mb-0"><i class="fas fa-heart text-spotify me-2"></i> Heart</li>         
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1000 });
+    </script>
+</body>
+</html>

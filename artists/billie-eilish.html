@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billie Eilish | Music Archive</title>
+    <link rel="icon" type="image/x-icon" href="../imgs/ico/Logo Ad.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .artist-hero {
+            height: 60vh;
+            /* Actualizado con una imagen atmosférica de Billie Eilish en alta resolución */
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(15,15,15,1)), url('https://images.alphacoders.com/102/1026331.jpg');
+            background-size: cover;
+            background-position: center 30%; /* Ajustado para encuadrar mejor el rostro/silueta */
+            display: flex;
+            align-items: flex-end;
+            padding-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <main class="content-wrapper m-0">
+        <!-- Hero Artista -->
+        <section class="artist-hero">
+            <div class="container">
+                <a href="../index.html" class="btn btn-outline-light mb-4 rounded-pill"><i class="fas fa-arrow-left me-2"></i> Volver al Inicio</a>
+                <!-- Cambiado el título principal -->
+                <h1 class="display-2 fw-800" data-aos="fade-up">Billie Eilish</h1>
+                <div class="d-flex gap-3 flex-wrap" data-aos="fade-up" data-aos-delay="100">
+                    <!-- Datos corregidos al perfil de Billie -->
+                    <span class="badge bg-spotify px-3 py-2">Desde 2015</span>
+                    <span class="badge bg-secondary px-3 py-2">Estados Unidos</span>
+                    <span class="badge bg-secondary px-3 py-2">Dark Pop / Alternative Pop</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contenido Artista -->
+        <section class="section-padding">
+            <div class="container">
+                <div class="row g-5">
+                    <!-- Columna de Historia y Álbumes -->
+                    <div class="col-lg-8" data-aos="fade-up">
+                        <h2 class="mb-4">Historia</h2>
+
+                        <p class="lead text-secondary-muted">
+                        Billie Eilish es una cantante y compositora estadounidense nacida en Los Ángeles, California. Alcanzó reconocimiento mundial en 2015 con "Ocean Eyes", una canción creada junto a su hermano y productor FINNEAS, que rápidamente se volvió viral y marcó el inicio de una carrera extraordinaria.
+                        </p>
+
+                        <p class="text-secondary-muted">
+                        Con un estilo que combina pop alternativo, electropop e influencias indie, Billie Eilish se ha convertido en una de las artistas más influyentes de su generación. Gracias a éxitos como "bad guy", "when the party's over", "everything i wanted", "birds of a feather" y "LUNCH", además de múltiples premios Grammy y dos premios Óscar, ha dejado una huella única en la música contemporánea por su autenticidad, creatividad y constante innovación artística.
+                        </p>
+                        
+                        <h3 class="mt-5 mb-4">Álbumes Destacados</h3>
+                        <div class="row g-3">
+                            <!-- Álbum 1: HIT ME HARD AND SOFT -->
+                            <div class="col-md-4">
+                                <div class="glass p-3 text-center h-100">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b27371d62ea7ea8a5be92d3c1f62" class="img-fluid rounded mb-2" alt="Hit Me Hard and Soft">
+                                    <h6 class="mb-0">HIT ME HARD AND SOFT (2024)</h6>
+                                </div>
+                            </div>
+                            <!-- Álbum 2: Happier Than Ever -->
+                            <div class="col-md-4">
+                                <div class="glass p-3 text-center h-100">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b2732a038d3bf875d23e4aeaa84e" class="img-fluid rounded mb-2" alt="Happier Than Ever">
+                                    <h6 class="mb-0">Happier Than Ever (2021)</h6>
+                                </div>
+                            </div>
+                            <!-- Álbum 3: WWAFA, WDWG? -->
+                            <div class="col-md-4">
+                                <div class="glass p-3 text-center h-100">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b27350a3147b4edd7701a876c6ce" class="img-fluid rounded mb-2" alt="When We All Fall Asleep, Where Do We Go?">
+                                    <h6 class="mb-0">When We All Fall Asleep... (2019)</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Columna Lateral (Sidebar) -->
+                    <div class="col-lg-4">
+                        <div class="sticky-top" style="top: 2rem;">
+                            <!-- Spotify Player actualizado con el perfil oficial "This Is Billie Eilish" -->
+                            <div class="glass p-4 mb-4" data-aos="fade-left">
+                                <h4 class="mb-3">Spotify Player</h4>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX6cg4h2PoN9y?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>                            </div>
+                            <!-- Lista de canciones favoritas actualizada -->
+                            <div class="glass p-4" data-aos="fade-left" data-aos-delay="200">
+                                <h4 class="mb-3">Mis Favoritas</h4>
+                                <ul class="list-unstyled mb-0">
+                                    <li class="mb-2"><i class="fas fa-heart text-spotify me-2"></i> Chihiro</li>
+                                    <li class="mb-2"><i class="fas fa-heart text-spotify me-2"></i> Bellyache</li>
+                                    <li class="mb-2"><i class="fas fa-heart text-spotify me-2"></i> Birds of a Feather</li>
+                                    <li class="mb-2"><i class="fas fa-heart text-spotify me-2"></i> Lunch</li>                                    
+                                    <li class="mb-0"><i class="fas fa-heart text-spotify me-2"></i> Bad Guy</li>         
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1000 });
+    </script>
+</body>
+</html>

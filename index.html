@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Archive | La banda sonora de mi vida</title>
+    <link rel="icon" type="image/x-icon" href="./imgs//ico//Logo Ad.ico">
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar glass">
+        <div class="sidebar-header">
+            <!-- <i class="fas fa-compact-disc logo-icon"></i> -->
+            <img src="./imgs/img/Logo Ad-blck.png" alt="Logo" style="max-height: 40px;">
+            <span class="logo-text">MUSIC ARCHIVE</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#hero" class="active"><i class="fas fa-home"></i> <span>Inicio</span></a></li>
+            <li><a href="#artists"><i class="fas fa-users"></i> <span>Artistas</span></a></li>
+            <li><a href="#ranking"><i class="fas fa-list-ol"></i> <span>Mi Ranking</span></a></li>
+            <li><a href="#timeline"><i class="fas fa-history"></i> <span>Timeline</span></a></li>
+            <li><a href="#about"><i class="fas fa-user-circle"></i> <span>Sobre Mí</span></a></li>
+        </ul>
+        <div class="theme-switch-wrapper">
+            <button id="theme-toggle" class="btn-theme">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main class="content-wrapper">
+        
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section d-flex align-items-center">
+            <div class="container" data-aos="fade-up">
+                <h6 class="text-spotify fw-bold mb-3">BIENVENIDO A MI ARCHIVO</h6>
+                <h1 class="display-1 fw-800">MUSIC ARCHIVE</h1>
+                <h2 class="h3 fw-light text-secondary-muted">La banda sonora de mi vida.</h2>
+                <p class="lead mt-4 max-w-600">Una colección personal de los artistas que marcaron mi historia musical, desde el synth-pop clásico hasta el rock actual.</p>
+                <div class="mt-5">
+                    <a href="#artists" class="btn btn-spotify btn-lg rounded-pill px-5">Explorar Artistas</a>
+                </div>
+            </div>
+            <div class="hero-gradient-bg"></div>
+        </section>
+
+        <!-- Artists Grid -->
+        <section id="artists" class="section-padding">
+            <div class="container">
+                <h2 class="section-title mb-5" data-aos="fade-right">Artistas Destacados</h2>
+                <div class="row g-4">
+                    <!-- Artista 1: Airbag -->
+                    <div class="col-md-6 col-lg-4 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="artist-card glass">
+                            <div class="artist-img-wrapper">
+                                <img src="https://i.scdn.co/image/ab676161000051747e7ce771bde5235afd45cb43" alt="Airbag">
+                            </div>
+                            <div class="card-body p-4">
+                                <span class="badge bg-spotify mb-2">Hard Rock</span>
+                                <h3 class="h5 mb-1">Airbag</h3>
+                                <p class="text-secondary-muted small mb-3"><i class="fas fa-map-marker-alt me-1"></i> Argentina</p>
+                                <a href="artists/airbag.html" class="btn btn-outline-light btn-sm w-100 rounded-pill">Ver Perfil</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="artist-card glass">
+                            <div class="artist-img-wrapper">
+                                <img src="https://laut.de/Billie-Eilish/billie-eilish-248085.jpg" alt="Billie Eilish">
+                            </div>
+                            <div class="card-body p-4">
+                                <span class="badge bg-spotify mb-2">Alternative Pop</span>
+                                <h3 class="h5 mb-1">Billie Eilish</h3>
+                                <p class="text-secondary-muted small mb-3"><i class="fas fa-map-marker-alt me-1"></i> Estados Unidos</p>
+                                <a href="artists/billie-eilish.html" class="btn btn-outline-light btn-sm w-100 rounded-pill">Ver Perfil</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Artista 2: C.C. Catch -->
+                    <div class="col-md-6 col-lg-4 col-xl-3" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="artist-card glass">
+                            <div class="artist-img-wrapper">
+                                <img src="https://i.scdn.co/image/ab6761610000e5ebc1478ad42116bc7bc41c05b7" alt="C.C. Catch">
+                            </div>
+                            <div class="card-body p-4">
+                                <span class="badge bg-spotify mb-2">Italo Disco</span>
+                                <h3 class="h5 mb-1">C.C. Catch</h3>
+                                <p class="text-secondary-muted small mb-3"><i class="fas fa-map-marker-alt me-1"></i> Alemania</p>
+                                <a href="artists/cc-catch.html" class="btn btn-outline-light btn-sm w-100 rounded-pill">Ver Perfil</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Artista 3: Daft Punk -->
+                    <div class="col-md-6 col-lg-4 col-xl-3" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="artist-card glass">
+                            <div class="artist-img-wrapper">
+                                <img src="https://circulopostal.com/wp-content/uploads/2023/10/merlin_68436082_cbc2d16f-e4ce-4e8e-9f06-d2789c9f309b-superJumbo.jpg" alt="Daft Punk">
+                            </div>
+                            <div class="card-body p-4">
+                                <span class="badge bg-spotify mb-2">Electronic</span>
+                                <h3 class="h5 mb-1">Daft Punk</h3>
+                                <p class="text-secondary-muted small mb-3"><i class="fas fa-map-marker-alt me-1"></i> Francia</p>
+                                <a href="artists/daft-punk.html" class="btn btn-outline-light btn-sm w-100 rounded-pill">Ver Perfil</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Artista 4: Depeche Mode -->
+                    <div class="col-md-6 col-lg-4 col-xl-3" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="artist-card glass">
+                            <div class="artist-img-wrapper">
+                                <img src="https://www.lanacion.com.ar/resizer/v2/martin-gore-y-dave-gahan-de-depeche-mode-en-6WGZ7ZXPPBHDNB7FP3FCNU63EE.jpg?auth=3cbb375201bf2459477ee32d0f6359431b505a8c3b9cfcdce500269f2fc89ba1&width=1200&height=800&quality=70&smart=true" alt="Depeche Mode">
+                            </div>
+                            <div class="card-body p-4">
+                                <span class="badge bg-spotify mb-2">Synth-pop</span>
+                                <h3 class="h5 mb-1">Depeche Mode</h3>
+                                <p class="text-secondary-muted small mb-3"><i class="fas fa-map-marker-alt me-1"></i> Reino Unido</p>
+                                <a href="artists/depeche-mode.html" class="btn btn-outline-light btn-sm w-100 rounded-pill">Ver Perfil</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Artista 5: Pet Shop Boys -->
+                    <div class="col-md-6 col-lg-4 col-xl-3" data-aos="zoom-in" data-aos-delay="500">
+                        <div class="artist-card glass">
+                            <div class="artist-img-wrapper">
+                                <img src="https://musicayoxigeno.com/wp-content/uploads/2019/01/psb-banner_edited.jpg" alt="Pet Shop Boys">
+                            </div>
+                            <div class="card-body p-4">
+                                <span class="badge bg-spotify mb-2">Synth-pop</span>
+                                <h3 class="h5 mb-1">Pet Shop Boys</h3>
+                                <p class="text-secondary-muted small mb-3"><i class="fas fa-map-marker-alt me-1"></i> Reino Unido</p>
+                                <a href="artists/pet-shop-boys.html" class="btn btn-outline-light btn-sm w-100 rounded-pill">Ver Perfil</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Artista 6: Soda Stereo -->
+                    <div class="col-md-6 col-lg-4 col-xl-3" data-aos="zoom-in" data-aos-delay="600">
+                        <div class="artist-card glass">
+                            <div class="artist-img-wrapper">
+                                <img src="https://s3-us-west-1.amazonaws.com/peermusic-web-content/images/Lg/2499ad6f-5bdc-4321-9311-924814ea4e5e.jpg" alt="Soda Stereo">
+                            </div>
+                            <div class="card-body p-4">
+                                <span class="badge bg-spotify mb-2">Rock Latino</span>
+                                <h3 class="h5 mb-1">Soda Stereo</h3>
+                                <p class="text-secondary-muted small mb-3"><i class="fas fa-map-marker-alt me-1"></i> Argentina</p>
+                                <a href="artists/soda-stereo.html" class="btn btn-outline-light btn-sm w-100 rounded-pill">Ver Perfil</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Artista 7: Virus -->
+                    <div class="col-md-6 col-lg-4 col-xl-3" data-aos="zoom-in" data-aos-delay="700">
+                        <div class="artist-card glass">
+                            <div class="artist-img-wrapper">
+                                <img src="https://www.lanacion.com.ar/resizer/v2/la-discografia-de-virus-se-resignifico-con-los-3GSNBUH33RFXTMH2KKJ5DCEHAQ.jpg?auth=3c89581bac572e0272e9e0b8bd347015bab5443abb080338b44e05535ca7c685&width=420&height=280&quality=70&smart=true" alt="Virus">
+                            </div>
+                            <div class="card-body p-4">
+                                <span class="badge bg-spotify mb-2">New Wave</span>
+                                <h3 class="h5 mb-1">Virus</h3>
+                                <p class="text-secondary-muted small mb-3"><i class="fas fa-map-marker-alt me-1"></i> Argentina</p>
+                                <a href="artists/virus.html" class="btn btn-outline-light btn-sm w-100 rounded-pill">Ver Perfil</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ranking Section -->
+        <section id="ranking" class="section-padding bg-darker">
+            <div class="container">
+                <h2 class="section-title text-center mb-5" data-aos="fade-up">Mi Ranking Personal</h2>
+                <div class="ranking-container mx-auto" style="max-width: 800px;">
+                    <!-- Top 1 -->
+                    <div class="ranking-item glass mb-3" data-aos="fade-left">
+                        <div class="rank-number">01</div>
+                        <div class="rank-info flex-grow-1">
+                            <h4>Daft Punk</h4>
+                            <div class="progress" style="height: 6px;">
+                                <div class="progress-bar bg-spotify" style="width: 100%"></div>
+                            </div>
+                        </div>
+                        <div class="rank-score">10.0</div>
+                    </div>
+                    <!-- Top 2 -->
+                    <div class="ranking-item glass mb-3" data-aos="fade-left" data-aos-delay="100">
+                        <div class="rank-number">02</div>
+                        <div class="rank-info flex-grow-1">
+                            <h4>Soda Stereo</h4>
+                            <div class="progress" style="height: 6px;">
+                                <div class="progress-bar bg-spotify" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="rank-score">9.8</div>
+                    </div>
+                    <!-- Top 3 -->
+                    <div class="ranking-item glass mb-3" data-aos="fade-left" data-aos-delay="200">
+                        <div class="rank-number">03</div>
+                        <div class="rank-info flex-grow-1">
+                            <h4>Airbag</h4>
+                            <div class="progress" style="height: 6px;">
+                                <div class="progress-bar bg-spotify" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="rank-score">9.5</div>
+                    </div>
+                    <!-- Top 4 -->
+                    <div class="ranking-item glass mb-3" data-aos="fade-left" data-aos-delay="300">
+                        <div class="rank-number">04</div>
+                        <div class="rank-info flex-grow-1">
+                            <h4>Depeche Mode</h4>
+                            <div class="progress" style="height: 6px;">
+                                <div class="progress-bar bg-spotify" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="rank-score">9.2</div>
+                    </div>
+                    <!-- Top 5 -->
+                    <div class="ranking-item glass mb-3" data-aos="fade-left" data-aos-delay="400">
+                        <div class="rank-number">05</div>
+                        <div class="rank-info flex-grow-1">
+                            <h4>Pet Shop Boys</h4>
+                            <div class="progress" style="height: 6px;">
+                                <div class="progress-bar bg-spotify" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="rank-score">9.0</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Timeline Section -->
+        <section id="timeline" class="section-padding">
+            <div class="container">
+                <h2 class="section-title text-center mb-5" data-aos="fade-up">Timeline Musical</h2>
+                <div class="timeline">
+                    <div class="timeline-item" data-aos="fade-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass">
+                            <span class="year text-spotify fw-bold">2010</span>
+                            <h5>Descubro Soda Stereo</h5>
+                            <p>Mi primer acercamiento al rock en español de alta calidad.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass">
+                            <span class="year text-spotify fw-bold">2013</span>
+                            <h5>El viaje synth-pop</h5>
+                            <p>Empiezo a escuchar Depeche Mode y la electrónica melódica.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass">
+                            <span class="year text-spotify fw-bold">2018</span>
+                            <h5>Electrónica Francesa</h5>
+                            <p>Daft Punk redefine mi forma de entender la producción musical.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass">
+                            <span class="year text-spotify fw-bold">2025</span>
+                            <h5>Experiencia en vivo</h5>
+                            <p>Concierto inolvidable de Airbag en el estadio.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="section-padding bg-darker">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6" data-aos="fade-right">
+                        <h2 class="section-title">Sobre Mí</h2>
+                        <h3 class="h4 mb-4">Hola, soy Diego.</h3>
+                        <p class="text-secondary-muted lead">Me apasionan la música, la programación, los videojuegos y los conciertos. Este sitio es una colección curada de los artistas que más han influido en mi vida y en mi forma de ver el arte.</p>
+                        <div class="social-links  mt-4">
+                            <a href="https://github.com/Alvaro-Diego-MQ" class="social-icon"><i class="fab fa-github"></i></a>
+                            <a href="https://open.spotify.com/user/wjz55u7jkf20g5kwzcxeyxnja?si=cb12851d0dd44bbf" class="social-icon"><i class="fab fa-spotify"></i></a>
+                            <a href="https://www.instagram.com/alv_diego_rck" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-5 mt-md-0" data-aos="fade-left">
+                        <div class="glass p-5 rounded-4">
+                            <h4 class="mb-3">Stack del Proyecto</h4>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-spotify me-2"></i> HTML5 & CSS3 Moderno</li>
+                                <li><i class="fas fa-check text-spotify me-2"></i> Vanilla JavaScript ES6+</li>
+                                <li><i class="fas fa-check text-spotify me-2"></i> Bootstrap 5 Grid System</li>
+                                <li><i class="fas fa-check text-spotify me-2"></i> AOS Animations Library</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer p-4 text-center glass-top">
+            <p class="m-0 text-secondary-muted small">&copy; 2026 Music Archive. Desarrollado con pasión.</p>
+        </footer>
+
+    </main>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

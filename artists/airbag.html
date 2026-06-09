@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbag | Music Archive</title>
+    <link rel="icon" type="image/x-icon" href="../imgs/ico/Logo Ad.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .artist-hero {
+            height: 60vh;
+            /* Actualizado con una imagen en vivo de la banda en alta resolución */
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(15,15,15,1)), url('https://www.pagina12.com.ar/resizer/v2/GMZDINTBGM3GCZDEHEZGKZDEGE.jpg?auth=34a7cb88f7c06ec80bba1ec732d16e3ceb83752a558f11a49bb7a01422eb3676');
+            background-size: cover;
+            background-position: center 40%;
+            display: flex;
+            align-items: flex-end;
+            padding-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <main class="content-wrapper m-0">
+        <!-- Hero Artista -->
+        <section class="artist-hero">
+            <div class="container">
+                <a href="../index.html" class="btn btn-outline-light mb-4 rounded-pill"><i class="fas fa-arrow-left me-2"></i> Volver al Inicio</a>
+                <h1 class="display-2 fw-800" data-aos="fade-up">Airbag</h1>
+                <div class="d-flex gap-3 flex-wrap" data-aos="fade-up" data-aos-delay="100">
+                    <span class="badge bg-spotify px-3 py-2">Desde 1999</span>
+                    <span class="badge bg-secondary px-3 py-2">Argentina</span>
+                    <span class="badge bg-secondary px-3 py-2">Hard Rock / Pop Rock</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contenido Artista -->
+        <section class="section-padding">
+            <div class="container">
+                <div class="row g-5">
+                    <!-- Columna de Historia y Álbumes -->
+                    <div class="col-lg-8" data-aos="fade-up">
+                        <h2 class="mb-4">Historia</h2>
+
+                        <p class="lead text-secondary-muted">
+                        Airbag es una banda argentina de rock formada en Don Torcuato, Buenos Aires, por los hermanos Patricio, Gastón y Guido Sardelli. Desde muy jóvenes comenzaron a tocar juntos, influenciados por el rock clásico, el hard rock y el blues, desarrollando un estilo propio que con el tiempo los convertiría en una de las bandas más importantes de Argentina.
+                        </p>
+
+                        <p class="text-secondary-muted">
+                        Tras alcanzar gran popularidad con su álbum debut en 2004, el grupo evolucionó constantemente hasta consolidar un sonido más potente y maduro. Con una destacada presencia en escenarios de toda Latinoamérica, Airbag ha construido una sólida trayectoria gracias a canciones como "Solo Aquí", "Por Mil Noches", "Cae el Sol", "Vivamos el Momento" y "Volver a Casa", convirtiéndose en uno de los referentes del rock argentino contemporáneo.
+                        </p>
+                        <h3 class="mt-5 mb-4">Álbumes Destacados</h3>
+                        <div class="row g-3">
+                            <!-- Álbum 1: Al Parecer Todo Ha Sido Una Trampa -->
+                            <div class="col-md-4">
+                                <div class="glass p-3 text-center h-100">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b273536521e97eaf8309fe37ed34" class="img-fluid rounded mb-2" alt="Al Parecer Todo Ha Sido Una Trampa">
+                                    <h6 class="mb-0">Al Parecer Todo Ha Sido... (2021)</h6>
+                                </div>
+                            </div>
+                            <!-- Álbum 2: Mentira la Verdad -->
+                            <div class="col-md-4">
+                                <div class="glass p-3 text-center h-100">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b273380ad81a5e81851b0a67e247" class="img-fluid rounded mb-2" alt="Mentira la Verdad">
+                                    <h6 class="mb-0">Mentira la Verdad (2016)</h6>
+                                </div>
+                            </div>
+                            <!-- Álbum 3: Libertad -->
+                            <div class="col-md-4">
+                                <div class="glass p-3 text-center h-100">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b27326ce228721c436cb60cefa22" class="img-fluid rounded mb-2" alt="Libertad">
+                                    <h6 class="mb-0">Libertad (2013)</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Columna Lateral (Sidebar) -->
+                    <div class="col-lg-4">
+                        <div class="sticky-top" style="top: 2rem;">
+                            <!-- Spotify Player actualizado con la playlist oficial "This Is Airbag" -->
+                            <div class="glass p-4 mb-4" data-aos="fade-left">
+                                <h4 class="mb-3">Spotify Player</h4>
+                                <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DZ06evO0QxfCe?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                            </div>
+                            <!-- Lista de canciones favoritas actualizada -->
+                            <div class="glass p-4" data-aos="fade-left" data-aos-delay="200">
+                                <h4 class="mb-3">Mis Favoritas</h4>
+                                <ul class="list-unstyled mb-0">
+                                    <li class="mb-2"><i class="fas fa-heart text-spotify me-2"></i> Nunca lo Olvides</li>
+                                    <li class="mb-2"><i class="fas fa-heart text-spotify me-2"></i> Cae del Sol</li>
+                                    <li class="mb-2"><i class="fas fa-heart text-spotify me-2"></i> Pensamientos</li>
+                                    <li class="mb-2"><i class="fas fa-heart text-spotify me-2"></i> Por Mil Noches</li>
+                                    <li class="mb-0"><i class="fas fa-heart text-spotify me-2"></i> Ella no Está</li>         
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1000 });
+    </script>
+</body>
+</html>

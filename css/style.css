@@ -1,0 +1,268 @@
+:root {
+    --bg-color: #0f0f0f;
+    --bg-darker: #080808;
+    --card-bg: #181818;
+    --spotify-green: #1DB954;
+    --text-main: #FFFFFF;
+    --text-secondary: #B3B3B3;
+    --glass-bg: rgba(24, 24, 24, 0.7);
+    --glass-border: rgba(255, 255, 255, 0.1);
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+[data-theme="light"] {
+    --bg-color: #f8f9fa;
+    --bg-darker: #e9ecef;
+    --card-bg: #ffffff;
+    --text-main: #121212;
+    --text-secondary: #555555;
+    --glass-bg: rgba(255, 255, 255, 0.8);
+    --glass-border: rgba(0, 0, 0, 0.1);
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+    transition: var(--transition-smooth);
+}
+
+.fw-800 { font-weight: 800; }
+.text-spotify { color: var(--spotify-green); }
+.bg-spotify { background-color: var(--spotify-green); }
+.text-secondary-muted { color: var(--text-secondary); }
+.max-w-600 { max-width: 600px; }
+
+/* Sidebar */
+.sidebar {
+    width: 260px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    padding: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid var(--glass-border);
+}
+
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 3rem;
+}
+
+.logo-icon {
+    font-size: 2rem;
+    color: var(--spotify-green);
+}
+
+.logo-text {
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-bottom: 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text-secondary);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 12px 15px;
+    border-radius: 12px;
+    transition: var(--transition-smooth);
+}
+
+.nav-links a:hover, .nav-links a.active {
+    color: var(--text-main);
+    background: var(--glass-bg);
+}
+
+.nav-links a i {
+    width: 20px;
+    font-size: 1.1rem;
+}
+
+/* Main Layout */
+.content-wrapper {
+    margin-left: 260px;
+}
+
+/* Hero Section */
+.hero-section {
+    min-height: 100vh;
+    position: relative;
+    padding: 4rem 2rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://cdn.wallpapersafari.com/24/70/lN2D4h.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.hero-gradient-bg {
+    position: absolute;
+    top: -10%;
+    right: -10%;
+    width: 60%;
+    height: 60%;
+    background: radial-gradient(circle, rgba(29, 185, 84, 0.25) 0%, transparent 70%);
+    z-index: -1;
+    pointer-events: none;
+}
+
+/* Glassmorphism */
+.glass {
+    background: var(--glass-bg);
+    backdrop-filter: blur(12px);
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
+}
+
+/* Cards Artistas */
+.artist-card {
+    overflow: hidden;
+    transition: var(--transition-smooth);
+    height: 100%;
+}
+
+.artist-card:hover {
+    transform: translateY(-10px);
+    border-color: var(--spotify-green);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.artist-img-wrapper {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.artist-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: var(--transition-smooth);
+}
+
+.artist-card:hover .artist-img-wrapper img {
+    scale: 1.1;
+}
+
+/* Ranking */
+.ranking-item {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    gap: 20px;
+    transition: var(--transition-smooth);
+}
+
+.rank-number {
+    font-size: 2rem;
+    font-weight: 800;
+    opacity: 0.3;
+}
+
+.rank-score {
+    font-weight: 800;
+    color: var(--spotify-green);
+}
+
+/* Timeline */
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.timeline-item {
+    position: relative;
+    padding-left: 50px;
+    padding-bottom: 3rem;
+    border-left: 2px solid var(--glass-border);
+}
+
+.timeline-dot {
+    position: absolute;
+    left: -9px;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    background: var(--spotify-green);
+    border-radius: 50%;
+    box-shadow: 0 0 15px var(--spotify-green);
+}
+
+.timeline-content {
+    padding: 1.5rem;
+}
+
+/* Utility */
+.section-padding { padding: 100px 0; }
+.bg-darker { background-color: var(--bg-darker); }
+.section-title { font-weight: 800; font-size: 2.5rem; }
+
+.btn-spotify {
+    background-color: var(--spotify-green);
+    color: white;
+    font-weight: 700;
+    border: none;
+    transition: var(--transition-smooth);
+}
+
+.btn-spotify:hover {
+    background-color: #1ed760;
+    transform: scale(1.05);
+    color: white;
+}
+
+/* Theme Toggle Button */
+.btn-theme {
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    color: var(--text-main);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: var(--transition-smooth);
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        bottom: 0;
+        top: auto;
+        left: 0;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0.5rem;
+        border-right: none;
+        border-top: 1px solid var(--glass-border);
+    }
+    .sidebar-header, .logo-text, .theme-switch-wrapper { display: none; }
+    .nav-links { display: flex; margin: 0; width: 100%; justify-content: space-around; }
+    .nav-links a span { display: none; }
+    .content-wrapper { margin-left: 0; margin-bottom: 70px; }
+    .display-1 { font-size: 3.5rem; }
+}

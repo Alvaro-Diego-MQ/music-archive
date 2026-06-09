@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Depeche Mode | Music Archive</title>
+    <link rel="icon" type="image/x-icon" href="../imgs/ico/Logo Ad.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .artist-hero {
+            height: 60vh;
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(15,15,15,1)), url('https://m.media-amazon.com/images/S/pv-target-images/74b50c66318de69be0104bf5a4bdb44dd8dcb9d7dba64a9af3c3eb9eb223b502._SX1080_FMjpg_.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: flex-end;
+            padding-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <main class="content-wrapper m-0">
+        <!-- Hero Artista -->
+        <section class="artist-hero">
+            <div class="container">
+                <a href="../index.html" class="btn btn-outline-light mb-4 rounded-pill"><i class="fas fa-arrow-left me-2"></i> Volver al Inicio</a>
+                <h1 class="display-2 fw-800" data-aos="fade-up">Depeche Mode</h1>
+                <div class="d-flex gap-3 flex-wrap" data-aos="fade-up" data-aos-delay="100">
+                    <span class="badge bg-spotify px-3 py-2">Desde 1980</span>
+                    <span class="badge bg-secondary px-3 py-2">Reino Unido</span>
+                    <span class="badge bg-secondary px-3 py-2">Synth-pop / Alternative Rock</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contenido Artista -->
+        <section class="section-padding">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-8" data-aos="fade-up">
+                        <h2 class="mb-4">Historia</h2>
+                        <p class="lead text-secondary-muted">Depeche Mode es una banda británica formada en Basildon, Essex, en 1980. Han sido pioneros del uso de sintetizadores y samplers en la música popular, convirtiéndose en una de las bandas más influyentes del rock electrónico moderno.</p>
+                        <p class="text-secondary-muted">Con más de 100 millones de discos vendidos, su legado abarca éxitos como "Enjoy the Silence", "Personal Jesus" y "Never Let Me Down Again".</p>
+                        
+                        <h3 class="mt-5 mb-4">Álbumes Destacados</h3>
+                        <div class="row g-3">
+                            <div class="col-md-4">
+                                <div class="glass p-3 text-center h-100">
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/9/92/Depeche_Mode_-_Violator.png" class="img-fluid rounded mb-2" alt="Violator">
+                                    <h6 class="mb-0">Violator (1990)</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="glass p-3 text-center h-100">
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/8/82/Depeche_Mode_-_Music_for_the_Masses.png" class="img-fluid rounded mb-2" alt="Music for the Masses">
+                                    <h6 class="mb-0">Music for the Masses (1987)</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="glass p-3 text-center h-100">
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/2/25/Depeche_Mode_-_Black_Celebration.png" class="img-fluid rounded mb-2" alt="Black Celebration">
+                                    <h6 class="mb-0">Black Celebration (1986)</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="sticky-top" style="top: 2rem;">
+                            <div class="glass p-4 mb-4" data-aos="fade-left">
+                                <h4 class="mb-3">Spotify Player</h4>
+                                <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DZ06evO4cid0s?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                            </div>
+                            <div class="glass p-4" data-aos="fade-left" data-aos-delay="200">
+                                <h4 class="mb-3">Mis Favoritas</h4>
+                                <ul class="list-unstyled mb-0">
+                                    <li class="mb-2"><i class="fas fa-heart text-spotify me-2"></i> Enjoy the Silence</li>
+                                    <li class="mb-2"><i class="fas fa-heart text-spotify me-2"></i> Never Let Me Down Again</li>
+                                    <li class="mb-2"><i class="fas fa-heart text-spotify me-2"></i> It's No Good</li>
+                                    <li class="mb-0"><i class="fas fa-heart text-spotify me-2"></i> Policy of Truth</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1000 });
+    </script>
+</body>
+</html>
