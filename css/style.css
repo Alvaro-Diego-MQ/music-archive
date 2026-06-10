@@ -246,6 +246,18 @@ body {
     transition: var(--transition-smooth);
 }
 
+.social-icon {
+    color: #1DB954;
+    font-size: 2rem;
+    margin-right: 15px;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #1ed760;
+    transform: translateY(-3px) scale(1.1);
+}
+
 /* Responsive */
 @media (max-width: 992px) {
     .sidebar {
