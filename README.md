@@ -6,8 +6,18 @@
 
 ### Una colección personal de los artistas que han definido mi evolución musical
 
-[🌐 Ver Sitio Web](https://music-archive-five.vercel.app/) • [💻 Repositorio](https://github.com/Alvaro-Diego-MQ/music-archive)
 
+![GitHub repo size](https://img.shields.io/github/repo-size/Alvaro-Diego-MQ/music-archive?style=for-the-badge&color=4CAF50&logo=github&logoColor=white)
+![GitHub last commit](https://img.shields.io/github/last-commit/Alvaro-Diego-MQ/music-archive?style=for-the-badge&color=2E7D32&logo=git&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completado-brightgreen?style=for-the-badge)
+
+<p align="center">
+  <br />
+  <a href="https://music-archive-five.vercel.app/">
+    <img src="https://img.shields.io/badge/🌐%20DESPLIEGUE%20EN%20VIVO-VER%20DEMO%20AQUÍ-4CAF50?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Demo en Vivo" height="45"/>
+  </a>
+</p
+  
 </div>
 
 ---
@@ -124,19 +134,19 @@ El proyecto ha sido optimizado para:
 
 ## 🔧 Instalación Local
 
-Clona el repositorio:
+🔹 Clona el repositorio:
 
 ```bash
 git clone https://github.com/Alvaro-Diego-MQ/music-archive.git
 ```
 
-Ingresa al proyecto:
+🔹 Ingresa al proyecto:
 
 ```bash
 cd music-archive
 ```
 
-Abre el archivo principal:
+🔹 Abre el archivo principal:
 
 ```bash
 index.html
