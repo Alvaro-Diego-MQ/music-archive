@@ -32,38 +32,40 @@ Cada artista cuenta con una página dedicada donde se presenta información, im�
 
 ## ✨ Características
 
-* 🎨 Diseño moderno inspirado en Spotify
-* 📱 Totalmente responsive para dispositivos móviles y escritorio
-* ⚡ Navegación fluida y animaciones suaves
-* 🎵 Páginas individuales para cada artista
-* 🏆 Ranking personal de artistas favoritos
-* 📅 Timeline de mi evolución musical
-* 🌙 Interfaz oscura elegante
-* 🚀 Desplegado en Vercel
+|                                           |                                           |
+| ----------------------------------------- | ----------------------------------------- |
+| 🎨 Diseño moderno inspirado en Spotify    | 📱 Totalmente responsive                  |
+| ⚡ Navegación fluida y animaciones suaves  | 🎵 Páginas individuales para cada artista |
+| 🏆 Ranking personal de artistas favoritos | 📅 Timeline de mi evolución musical       |
+| 🌙 Interfaz oscura elegante               | 🚀 Desplegado en Vercel                   |
 
 ---
 
 ## 🎤 Artistas Destacados
 
-* Airbag
-* Soda Stereo
-* Daft Punk
-* Depeche Mode
-* Virus
-* Pet Shop Boys
+|              |                  |
+| ------------ | ---------------- |
+| 🎸 Airbag    | 🎹 Soda Stereo   |
+| 🤖 Daft Punk | 🖤 Depeche Mode  |
+| 🎤 Virus     | 🎧 Pet Shop Boys |
 
 ---
 
 ## 🛠️ Tecnologías Utilizadas
 
-| Tecnología      | Uso                          |
-| --------------- | ---------------------------- |
-| HTML5           | Estructura del sitio         |
-| CSS3            | Diseño y estilos             |
-| JavaScript ES6+ | Interactividad               |
-| Bootstrap 5     | Sistema de diseño responsive |
-| AOS             | Animaciones al hacer scroll  |
-| Font Awesome    | Iconografía                  |
+<div align="center">
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
+
+<br>
+
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge\&logo=bootstrap\&logoColor=white)
+![AOS](https://img.shields.io/badge/AOS-Animation-blueviolet?style=for-the-badge)
+![Font Awesome](https://img.shields.io/badge/Font_Awesome-528DD7?style=for-the-badge\&logo=fontawesome\&logoColor=white)
+
+</div>
 
 ---
 
@@ -105,16 +107,18 @@ Music Archive
 
 > Explora una colección visual de mis artistas favoritos, rankings personales y una línea temporal de mi evolución musical.
 
+<!-- Agrega aquí una captura o GIF del proyecto -->
+
 ---
 
 ## 📱 Responsive Design
 
-El proyecto ha sido optimizado para:
-
-* ✅ Computadoras de escritorio
-* ✅ Tablets
-* ✅ Smartphones
-* ✅ Navegadores modernos
+| Dispositivo                    | Estado |
+| ------------------------------ | ------ |
+| 🖥️ Computadoras de escritorio | ✅      |
+| 📟 Tablets                     | ✅      |
+| 📱 Smartphones                 | ✅      |
+| 🌐 Navegadores modernos        | ✅      |
 
 ---
 
@@ -144,24 +148,32 @@ O utiliza una extensión como **Live Server** en Visual Studio Code.
 
 ## 🎯 Objetivo
 
-Este proyecto fue creado como una forma de:
-
-* Compartir mis gustos musicales.
-* Practicar desarrollo frontend.
-* Experimentar con diseño web moderno.
-* Crear un espacio personal dedicado a la música.
+|                                        |                                                   |
+| -------------------------------------- | ------------------------------------------------- |
+| 🎵 Compartir mis gustos musicales      | 💻 Practicar desarrollo frontend                  |
+| 🎨 Experimentar con diseño web moderno | 🚀 Crear un espacio personal dedicado a la música |
 
 ---
 
 ## 👨‍💻 Autor
 
+<div align="center">
+
 ### A. Diego
 
-📧 Contacto y redes:
+<a href="https://github.com/Alvaro-Diego-MQ">
+  <img src="https://img.shields.io/badge/GitHub-Alvaro--Diego--MQ-181717?style=for-the-badge&logo=github&logoColor=white">
+</a>
 
-* GitHub: https://github.com/Alvaro-Diego-MQ
-* Instagram: https://www.instagram.com/alv_diego_rck
-* Spotify: https://open.spotify.com/user/wjz55u7jkf20g5kwzcxeyxnja
+<a href="https://www.instagram.com/alv_diego_rck">
+  <img src="https://img.shields.io/badge/Instagram-@alv__diego__rck-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
+</a>
+
+<a href="https://open.spotify.com/user/wjz55u7jkf20g5kwzcxeyxnja">
+  <img src="https://img.shields.io/badge/Spotify-Perfil-1DB954?style=for-the-badge&logo=spotify&logoColor=white">
+</a>
+
+</div>
 
 ---
 
