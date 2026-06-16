@@ -10,8 +10,6 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/Alvaro-Diego-MQ/music-archive?style=for-the-badge\&color=2E7D32\&logo=git\&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Completado-brightgreen?style=for-the-badge)
 
-<br><br>
-
 <a href="https://music-archive-five.vercel.app/">
   <img src="https://img.shields.io/badge/🌐%20DESPLIEGUE%20EN%20VIVO-VER%20DEMO%20AQUÍ-4CAF50?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Demo en Vivo" height="45"/>
 </a>
