@@ -24,30 +24,23 @@
 
 **Music Archive** es una página web personal dedicada a los artistas y bandas que más han influido en mi vida musical.
 
-El proyecto busca combinar mi pasión por la música y el desarrollo web mediante una experiencia visual moderna inspirada en plataformas como Spotify.
+El proyecto combina mi pasión por la música y el desarrollo web mediante una experiencia visual moderna inspirada en plataformas de streaming como Spotify.
 
 Cada artista cuenta con una página dedicada donde se presenta información, imágenes y contenido relacionado con su trayectoria e impacto en mi evolución musical.
 
 ---
 
-## ✨ Características
+## ✨ Características Principales
 
-|                                           |                                           |
-| ----------------------------------------- | ----------------------------------------- |
-| 🎨 Diseño moderno inspirado en Spotify    | 📱 Totalmente responsive                  |
-| ⚡ Navegación fluida y animaciones suaves  | 🎵 Páginas individuales para cada artista |
-| 🏆 Ranking personal de artistas favoritos | 📅 Timeline de mi evolución musical       |
-| 🌙 Interfaz oscura elegante               | 🚀 Desplegado en Vercel                   |
-
----
-
-## 🎤 Artistas Destacados
-
-|              |                  |
-| ------------ | ---------------- |
-| 🎸 Airbag    | 🎹 Soda Stereo   |
-| 🤖 Daft Punk | 🖤 Depeche Mode  |
-| 🎤 Virus     | 🎧 Pet Shop Boys |
+* 🎵 Archivo musical personal con artistas y bandas que marcaron mi evolución musical.
+* 🎨 Diseño moderno inspirado en plataformas de streaming.
+* 📄 Páginas individuales para cada artista.
+* 🏆 Ranking personal de artistas favoritos.
+* 📅 Línea temporal de mi evolución musical.
+* ⚡ Navegación fluida con animaciones suaves.
+* 🌙 Interfaz oscura elegante.
+* 📱 Diseño responsive para todo tipo de dispositivos.
+* 🚀 Despliegue en producción mediante Vercel.
 
 ---
 
@@ -72,25 +65,25 @@ Cada artista cuenta con una página dedicada donde se presenta información, im�
 ## 📂 Estructura del Proyecto
 
 ```text
-Music Archive
+Music Archive/
 │
-├── artists/
+├── artists/                 # Páginas dedicadas a cada artista o banda
 │   ├── airbag.html
-│   ├── *******.html
-│   ├── *******.html
-│   ├── *******.html
+│   ├── daftpunk.html
+│   ├── depechemode.html
+│   └── ...
 │
 ├── css/
-│   └── style.css
+│   └── style.css            # Estilos globales del sitio
 │
 ├── js/
-│   └── app.js
+│   └── app.js               # Lógica e interacciones JavaScript
 │
 ├── imgs/
-│   ├── ico/
-│   └── img/
+│   ├── ico/                 # Iconos utilizados en la interfaz
+│   └── img/                 # Imágenes, portadas y recursos gráficos
 │
-└── index.html
+└── index.html               # Página principal del proyecto
 ```
 
 ---
@@ -100,25 +93,6 @@ Music Archive
 🔗 **Sitio Web**
 
 👉 https://music-archive-five.vercel.app/
-
----
-
-## 📸 Vista Previa
-
-> Explora una colección visual de mis artistas favoritos, rankings personales y una línea temporal de mi evolución musical.
-
-<!-- Agrega aquí una captura o GIF del proyecto -->
-
----
-
-## 📱 Responsive Design
-
-| Dispositivo                    | Estado |
-| ------------------------------ | ------ |
-| 🖥️ Computadoras de escritorio | ✅      |
-| 📟 Tablets                     | ✅      |
-| 📱 Smartphones                 | ✅      |
-| 🌐 Navegadores modernos        | ✅      |
 
 ---
 
@@ -136,22 +110,24 @@ git clone https://github.com/Alvaro-Diego-MQ/music-archive.git
 cd music-archive
 ```
 
-### 3️⃣ Abre el archivo principal
+### 3️⃣ Ejecuta el proyecto
+
+Abre el archivo principal:
 
 ```bash
 index.html
 ```
 
-O utiliza una extensión como **Live Server** en Visual Studio Code.
+O utiliza una extensión como **Live Server** en Visual Studio Code para una mejor experiencia de desarrollo.
 
 ---
 
 ## 🎯 Objetivo
 
-|                                        |                                                   |
-| -------------------------------------- | ------------------------------------------------- |
-| 🎵 Compartir mis gustos musicales      | 💻 Practicar desarrollo frontend                  |
-| 🎨 Experimentar con diseño web moderno | 🚀 Crear un espacio personal dedicado a la música |
+* 🎵 Compartir los artistas y bandas que han marcado mi historia musical.
+* 💻 Practicar y fortalecer habilidades de desarrollo frontend.
+* 🎨 Experimentar con diseño web moderno e interfaces atractivas.
+* 🚀 Construir un proyecto personal que combine música y tecnología.
 
 ---
 
